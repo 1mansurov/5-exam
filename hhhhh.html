@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post API</title>
+    <link rel="stylesheet" href="./hhhh.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Blog Post API</h1>
+        
+        <section id="register">
+            <h2>Register</h2>
+            <input type="text" id="regUsername" placeholder="Username">
+            <input type="password" id="regPassword" placeholder="Password">
+            <input type="email" id="regEmail" placeholder="Email">
+            <button onclick="registerUser()">Register</button>
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <button onclick="loginUser()">Login</button>
+        </section>
+
+        <section id="blogs">
+            <h2>All Blogs</h2>
+            <button onclick="getAllBlogs()">Get Blogs</button>
+            <div id="blogsList"></div>
+        </section>
+
+        <section id="blogById">
+            <h2>Get Blog by ID</h2>
+            <input type="text" id="blogId" placeholder="Blog ID">
+            <button onclick="getBlogById()">Get Blog</button>
+            <div id="blogDetails"></div>
+        </section>
+
+        <section id="createBlog">
+            <h2>Create Blog</h2>
+            <input type="text" id="blogTitle" placeholder="Title">
+            <textarea id="blogContent" placeholder="Content"></textarea>
+            <button onclick="createBlog()">Create Blog</button>
+        </section>
+    </div>
+    <script src="./hhhhh.js"></script>
+</body>
+</html>

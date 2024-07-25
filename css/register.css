@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Jomolhari", serif;
+}
+body {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  
+}
+.container{
+    margin: 0 auto;
+    max-width: 484px;
+}
+.register {
+    background-color: #F5C147;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 598px;
+    border-radius: 76px;
+    padding: 50px;
+}
+.register__logo>img{
+    margin-top: 26px;
+    border-radius: 22px;
+    margin-bottom: 20px;
+}
+
+.register h2 {
+    margin-bottom: 26px;
+    line-height: 41px;
+    font-weight: 400;
+}
+.form__register input {
+ width: 378px;
+ height: 60px;
+    margin-bottom: 23px;
+    border: 1px solid #ddd;
+    border-radius: 17px;
+    border: 3px solid;
+    font-size: 20px;
+    padding-left: 10px;  
+    padding-right: 10px;    
+
+}
+.form__register button {
+   margin-top: 16px;
+    padding: 15px 67px 15px 65px ;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 23px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 90px;
+}
+.form__register button:hover {
+    background-color: #218838;
+}
+.form__register small{
+   /* margin-left: -150px; */
+   display: inline-block;
+   text-align: left;
+}

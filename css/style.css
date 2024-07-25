@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #000;
+}
+.container{
+   
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.navigation{
+padding-left: 86px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 79px;
+background-color: black;
+}
+.btn{
+    display: flex;
+    gap: 43px;
+    padding-right: 125px;
+}
+ a{
+    line-height: 19px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+button{
+    border: none;
+    background-color: black;
+}
+.hero h2{
+font-size: 46px;
+line-height: 73px;
+color: #fff;
+margin-top: 37px;
+margin-left: 86px;
+font-family: "Jomolhari", serif;
+}
