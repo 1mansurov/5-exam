@@ -6,7 +6,7 @@ const registerUser = async () => {
     };
 
     try {
-        const response = await fetch('https://blog-post-production-b61c.up.railway.app/api/v1/user/register', {
+        const response = await fetch('https://blog-post-production-b61c.up.railway.app', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
